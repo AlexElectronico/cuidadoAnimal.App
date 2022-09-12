@@ -1,0 +1,12 @@
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.Dominio\bin\Debug\net6.0\cuidadoAnimal.App.dominio.deps.json
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.Dominio\bin\Debug\net6.0\cuidadoAnimal.App.dominio.dll
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.Dominio\bin\Debug\net6.0\cuidadoAnimal.App.dominio.pdb
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.Dominio\obj\Debug\net6.0\cuidadoAnimal.App.dominio.csproj.AssemblyReference.cache
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.Dominio\obj\Debug\net6.0\cuidadoAnimal.App.dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.Dominio\obj\Debug\net6.0\cuidadoAnimal.App.dominio.AssemblyInfoInputs.cache
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.Dominio\obj\Debug\net6.0\cuidadoAnimal.App.dominio.AssemblyInfo.cs
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.Dominio\obj\Debug\net6.0\cuidadoAnimal.App.dominio.csproj.CoreCompileInputs.cache
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.Dominio\obj\Debug\net6.0\cuidadoAnimal.App.dominio.dll
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.Dominio\obj\Debug\net6.0\refint\cuidadoAnimal.App.dominio.dll
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.Dominio\obj\Debug\net6.0\cuidadoAnimal.App.dominio.pdb
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.Dominio\obj\Debug\net6.0\ref\cuidadoAnimal.App.dominio.dll

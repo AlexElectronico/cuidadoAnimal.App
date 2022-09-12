@@ -1,0 +1,17 @@
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\obj\Debug\net6.0\cuidadoAnimal.App.persistencia.csproj.AssemblyReference.cache
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\obj\Debug\net6.0\cuidadoAnimal.App.persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\obj\Debug\net6.0\cuidadoAnimal.App.persistencia.AssemblyInfoInputs.cache
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\obj\Debug\net6.0\cuidadoAnimal.App.persistencia.AssemblyInfo.cs
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\obj\Debug\net6.0\cuidadoAnimal.App.persistencia.csproj.CoreCompileInputs.cache
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\bin\Debug\net6.0\cuidadoAnimal.App.persistencia.deps.json
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\bin\Debug\net6.0\cuidadoAnimal.App.persistencia.runtimeconfig.json
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\bin\Debug\net6.0\cuidadoAnimal.App.persistencia.dll
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\bin\Debug\net6.0\cuidadoAnimal.App.persistencia.pdb
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\bin\Debug\net6.0\cuidadoAnimal.App.dominio.dll
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\bin\Debug\net6.0\cuidadoAnimal.App.dominio.pdb
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\obj\Debug\net6.0\cuidadoAnimal.App.persistencia.csproj.CopyComplete
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\obj\Debug\net6.0\cuidadoAnimal.App.persistencia.dll
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\obj\Debug\net6.0\refint\cuidadoAnimal.App.persistencia.dll
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\obj\Debug\net6.0\cuidadoAnimal.App.persistencia.pdb
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\obj\Debug\net6.0\cuidadoAnimal.App.persistencia.genruntimeconfig.cache
+C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.persistencia\obj\Debug\net6.0\ref\cuidadoAnimal.App.persistencia.dll
