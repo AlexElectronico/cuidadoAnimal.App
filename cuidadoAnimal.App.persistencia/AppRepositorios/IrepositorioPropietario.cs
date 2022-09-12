@@ -1,5 +1,5 @@
 using System.Collections.Generic;  //libreria donde se definen las interfaces
-using cuidadoAnimal.App.Dominio;
+using cuidadoAnimal.App.dominio;
 
 namespace cuidadoAnimal.App.persistencia
 {

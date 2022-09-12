@@ -1,6 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
-namespace   cuidadoAnimal.App.Dominio
+namespace cuidadoAnimal.App.dominio
 {
     public class Propietario:Persona
     {    

@@ -1,6 +1,6 @@
 
 using Microsoft.EntityFrameworkCore;
-using cuidadoAnimal.App.Dominio;
+using cuidadoAnimal.App.dominio;
 
 namespace cuidadoAnimal.App.persistencia
 

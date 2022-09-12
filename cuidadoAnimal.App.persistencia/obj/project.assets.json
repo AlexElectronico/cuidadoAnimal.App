@@ -6044,8 +6044,8 @@
     },
     "cuidadoAnimal.App.dominio/1.0.0": {
       "type": "project",
-      "path": "../cuidadoAnimal.App.Dominio/cuidadoAnimal.App.dominio.csproj",
-      "msbuildProject": "../cuidadoAnimal.App.Dominio/cuidadoAnimal.App.dominio.csproj"
+      "path": "../cuidadoAnimal.App.dominio/cuidadoAnimal.App.dominio.csproj",
+      "msbuildProject": "../cuidadoAnimal.App.dominio/cuidadoAnimal.App.dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6082,8 +6082,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\cuidadoAnimal\\cuidadoAnimal.App\\cuidadoAnimal.App.Dominio\\cuidadoAnimal.App.dominio.csproj": {
-              "projectPath": "C:\\cuidadoAnimal\\cuidadoAnimal.App\\cuidadoAnimal.App.Dominio\\cuidadoAnimal.App.dominio.csproj"
+            "C:\\cuidadoAnimal\\cuidadoAnimal.App\\cuidadoAnimal.App.dominio\\cuidadoAnimal.App.dominio.csproj": {
+              "projectPath": "C:\\cuidadoAnimal\\cuidadoAnimal.App\\cuidadoAnimal.App.dominio\\cuidadoAnimal.App.dominio.csproj"
             }
           }
         }

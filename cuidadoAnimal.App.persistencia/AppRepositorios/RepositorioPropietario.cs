@@ -7,7 +7,7 @@ namespace cuidadoAnimal.App.persistencia
    public class RepositorioPropietario:IrepositorioPropietario
    {
       private readonly AppContext _appContext;
-      public RepositorioPropietariot(AppContext appContext)
+      public RepositorioPropietario(AppContext appContext)
       {
         _appContext=appContext;
       }
