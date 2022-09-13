@@ -1,0 +1,29 @@
+﻿@page
+@model cuidadoAnimal.App.presentacion.Pages.DetailsModel
+@{
+}
+<h2>Datos detallados del clente</h2>
+<div>
+   Id Persona: @Model.propietario.Apellidos
+
+</div>
+<div>
+
+
+</div>
+<div>
+   Telefono: @Model.propietario.Telefono
+
+</div>
+<div>
+  Email: @Model.propietario.Email
+
+</div>
+<div>
+   Nombre de la Hacienda:@Model.propietario.NombreHacienda
+
+</div>
+<div>
+   Direccion: @Model.propietario.Direccion
+</div>
+<a asp-page="./Lista" class ="btn-default">Volver a la lista de Propietarios</a>

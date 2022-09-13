@@ -15,8 +15,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\cuidadoAnimal\cuidadoAnimal.App\cuidadoAnimal.App.presentacion
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/cuidadoAnimal/cuidadoAnimal.App/cuidadoAnimal.App.presentacion/Pages/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cuidadoAnimal/cuidadoAnimal.App/cuidadoAnimal.App.presentacion/Pages/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/cuidadoAnimal/cuidadoAnimal.App/cuidadoAnimal.App.presentacion/Pages/Clientes/Lista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcTGlzdGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cuidadoAnimal/cuidadoAnimal.App/cuidadoAnimal.App.presentacion/Pages/Clientes/lista2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcbGlzdGEyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/cuidadoAnimal/cuidadoAnimal.App/cuidadoAnimal.App.presentacion/Pages/Clientes/NoFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcTm9Gb3VuZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/cuidadoAnimal/cuidadoAnimal.App/cuidadoAnimal.App.presentacion/Pages/Error.cshtml]

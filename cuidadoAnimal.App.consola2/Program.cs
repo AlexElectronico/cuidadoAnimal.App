@@ -8,10 +8,12 @@ namespace cuidadoAnimal.App.consola2
 
    {
     private static IrepositorioPropietario _repoPropietario=new RepositorioPropietario(new persistencia.AppContext());
+    
     static void Main(string[] args)
     {
      Console.WriteLine("HOLA MUNDO");
-     AddPropietario();
+     //AddPropietario();
+     BuscarPropietario(4);
     }
     
     private static void AddPropietario()
@@ -29,7 +31,12 @@ namespace cuidadoAnimal.App.consola2
       _repoPropietario.AddPropietario(propietario);
 
     }
+    private static void BuscarPropietario(int idcliente)
+    {
+      var propietario=_repoPropietario.GetPropietario(idcliente);
+      Console.WriteLine(propietario.Nombres);
 
+    }
 
    } 
 }
