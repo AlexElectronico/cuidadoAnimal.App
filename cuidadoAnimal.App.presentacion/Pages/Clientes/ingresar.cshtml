@@ -1,0 +1,73 @@
+﻿@page
+@model cuidadoAnimal.App.presentacion.Pages.ingresarModel
+@{
+
+}
+<div class="container">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <div class="text-info"><h1>Crear un Propietario</h1></div>
+
+            <form method="post">
+                <table class="table">
+                    <tr>
+                        <div>
+                           <td><label asp-for="Propietario.Nombres" class="from-label"></label></td> 
+                            <td><input asp-for="Propietario.Nombres" class="from-control" />
+                            <span asp-validation-for="Propietario.Nombres" class="text-danger"></span></td> 
+
+                        </div>
+                    </tr>
+                    <br>
+                    <tr>
+                        <div calss="mb-3">
+                           <td><label asp-for="Propietario.Apellidos" class="from-label"></label></td> 
+                           <td><input asp-for="Propietario.Apellidos" class="from-control" />
+                            <span asp-validation-for="Propietario.Apellidos" class="text-danger"></span></td> 
+
+                        </div>
+                    </tr>
+                    <br>
+                    <tr>
+                        <div calss="mb-3">
+                            <td><label asp-for="Propietario.Telefono" class="from-label"></label></td>
+                            <td><input asp-for="Propietario.Telefono" class="from-control" />
+                            <span asp-validation-for="Propietario.Telefono" class="text-danger"></span></td>
+
+                        </div>
+                    </tr>
+                    <br>
+                    <tr>
+                        <div calss="mb-3">
+                            <td><label asp-for="Propietario.Email" class="from-label"></label></td>
+                            <td><input asp-for="Propietario.Email" class="from-control" />
+                            <span asp-validation-for="Propietario.Email" class="text-danger"></span></td>
+
+                        </div>
+                    </tr>
+                    <br>
+                    <tr>
+                        <div calss="mb-3">
+                           <td> <label asp-for="Propietario.NombreHacienda" class="from-label"></label></td>
+                            <td><input asp-for="Propietario.NombreHacienda" class="from-control" />
+                            <span asp-validation-for="Propietario.NombreHacienda" class="text-danger"></span></td>
+                            <br>
+                        </div>
+                    </tr>
+                    <br>
+                    <tr>
+                        <div calss="mb-3">
+                          <td> <label asp-for="Propietario.Direccion" class="from-label"></label></td> 
+                          <td><input asp-for="Propietario.Direccion" class="from-control" />
+                           <span asp-validation-for="Propietario.Direccion" class="text-danger"></span></td> 
+
+                        </div>
+                    </tr>
+                    <br>
+                </table>
+            <button type="submit" class="btn btn-primary">Guardar Propietario</button>
+            </form>
+
+        </div>
+    </div>
+</div>

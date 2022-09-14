@@ -23,12 +23,16 @@
              </a>
         </td>
         <td>
-          <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-IdPersona="@propietario.IdPersona">Editar
+          <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-idpropietario="@propietario.IdPersona">Editar
           <i class="fas fa-address-book fa-lg" aria-hidden="true"></i></a>
         </td>
+        <td><div class="btn-group pl-5 pr-5" role="group" aria-label="Basic mixed styles example">
+                        <a class="btn btn-warning d-inline" asp-area="" asp-page="/Bovinos/EditarBovino"><i class="fas fa-edit"></i> Editar</a>
+                        <a class="btn btn-danger d-inline" asp-area="" asp-page="/Bovinos/EliminarBovino"><i class="fas fa-trash-alt"></i> Eliminar</a> 
+                    </div></td>
 
     </tr>  
     }
 
 </table>
-<a asp-page=".\Edit" class="btn btn-primary">Adicionar Propietario</a>
+<a asp-page=".\ingresar" class="btn btn-primary">Adicionar Propietario</a>

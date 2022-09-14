@@ -30,7 +30,7 @@ namespace cuidadoAnimal.App.consola2
       };  
       _repoPropietario.AddPropietario(propietario);
 
-    }
+    } 
     private static void BuscarPropietario(int idcliente)
     {
       var propietario=_repoPropietario.GetPropietario(idcliente);

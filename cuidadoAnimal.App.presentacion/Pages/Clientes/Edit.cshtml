@@ -1,16 +1,47 @@
-﻿@page
+﻿@*
+@page
 @model cuidadoAnimal.App.presentacion.Pages.EditModel
 @{
-   
+   int idpropietario=Model.propietario.IdPersona;
 }
-@*
+
 <h2>Edicion de datos del Propietario</h2>
 <form method="post">
-    <input type="hidden" asp-for="Propietario.IdPersona"/>
+    <input type="hidden" asp-for="propietario.IdPersona"/>
     <div class="form-grup">
-        <label asp-for="Propietario.IdPersona"></label>
-        <input asp-for="Propietario.IdPersona" class="form-control">
-        <span class="text-danger" asp-validation-for="Propietario.IdPersona"></span>
+        <label asp-for="propietario.IdPersona"></label>
+        <input asp-for="propietario.IdPersona" class="form-control">
+        <span class="text-danger" asp-validation-for="propietario.IdPersona"></span>
+    </div>
+     <div class="form-grup">
+        <label asp-for="propietario.Nombres"></label>
+        <input asp-for="propietario.Nombres" class="form-control">
+        <span class="text-danger" asp-validation-for="propietario.Nombres"></span>
+    </div>
+     <div class="form-grup">
+        <label asp-for="propietario.Apellidos"></label>
+        <input asp-for="propietario.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="propietario.Apellidos"></span>
+    </div>
+     <div class="form-grup">
+        <label asp-for="propietario.Telefono"></label>
+        <input asp-for="propietario.Telefono" class="form-control">
+        <span class="text-danger" asp-validation-for="propietario.Telefono"></span>
+    </div>
+     <div class="form-grup">
+        <label asp-for="propietario.Email"></label>
+        <input asp-for="propietario.Email" class="form-control">
+        <span class="text-danger" asp-validation-for="propietario.Email"></span>
+    </div>
+     <div class="form-grup">
+        <label asp-for="propietario.NombreHacienda"></label>
+        <input asp-for="propietario.NombreHacienda" class="form-control">
+        <span class="text-danger" asp-validation-for="propietario.NombreHacienda"></span>
+    </div>
+     <div class="form-grup">
+        <label asp-for="propietario.Direccion"></label>
+        <input asp-for="propietario.Direccion" class="form-control">
+        <span class="text-danger" asp-validation-for="propietario.Direccion"></span>
     </div>
 <button type="submit" class="btn btn-primary">Guardar</button>
 
