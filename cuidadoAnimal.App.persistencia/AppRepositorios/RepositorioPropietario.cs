@@ -48,6 +48,7 @@ namespace cuidadoAnimal.App.persistencia
          PropietarioEncontrado.Nombres=propietario.Nombres;
          PropietarioEncontrado.Apellidos=propietario.Apellidos;
          PropietarioEncontrado.Telefono=propietario.Telefono;
+         PropietarioEncontrado.Email=propietario.Email;
          PropietarioEncontrado.NombreHacienda=propietario.NombreHacienda;
          PropietarioEncontrado.Direccion=propietario.Direccion;
 

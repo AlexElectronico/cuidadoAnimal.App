@@ -1,7 +1,7 @@
-/*
+
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-
 using cuidadoAnimal.App.dominio;
 using cuidadoAnimal.App.persistencia;
 
@@ -10,7 +10,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
 namespace cuidadoAnimal.App.presentacion.Pages
 {
     public class EditModel : PageModel
@@ -23,15 +22,11 @@ namespace cuidadoAnimal.App.presentacion.Pages
             this.repositorioPropietario=new RepositorioPropietario(new cuidadoAnimal.App.persistencia.AppContext());
         }
 
-         public IActionResult OnGet(int? idpropietario)
+         public IActionResult OnGet(int idpropietario)
         {
-           if (idpropietario.HasValue){
-           propietario=repositorioPropietario.GetPropietario(idpropietario.value);
-           }
-           else{
-            propietario=new Propietario(); 
-           }
-           if(propietario==null){
+           
+           propietario=repositorioPropietario.GetPropietario(idpropietario);
+          if(propietario==null){
             return RedirectToPage("./NoFound");
            }
            else{
@@ -39,22 +34,13 @@ namespace cuidadoAnimal.App.presentacion.Pages
            }
         }
 
+       
+
         public IActionResult OnPost()
         {
-          if(!ModelState.IsValid)
-          {
-            return Page();
-          }
-          if(propietario.IdPersona>0)
-          {
-            propietario=repositorioPropietario.UpdatePropietario(propietario);
-          }
-          else{
-            repositorioPropietario.AddPropietario(propietario);
-          }
-          return Page();
-
+           propietario=repositorioPropietario.UpdatePropietario(propietario);
+            return RedirectToPage("./Lista"); 
         }
+      
     }
 }
-*/

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZlKbReyzcV+hgQzRqYO+2y/Bo5HKhdbypRb9XKilt10k8t/mxi4Vq6vP53lKNEJG/u0tix0hacKt4i6wAZXemQ==",
+  "dgSpecHash": "1t8e7x5XByHZovt+2b+sXxyAdCmrt6iAFEq3fMMm8MF+IvooSqXpIJ/U9MPU4r3ugT2ar11MSSifIcV5X8L4pg==",
   "success": true,
   "projectFilePath": "C:\\cuidadoAnimal\\cuidadoAnimal.App\\cuidadoAnimal.App.consola2\\cuidadoAnimal.App.consola2.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\Usuario Microsoft\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Usuario Microsoft\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Usuario Microsoft\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario Microsoft\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\Usuario Microsoft\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\Usuario Microsoft\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\Usuario Microsoft\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",

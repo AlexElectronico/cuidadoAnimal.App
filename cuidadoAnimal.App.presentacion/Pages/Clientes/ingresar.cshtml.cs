@@ -29,7 +29,7 @@ namespace cuidadoAnimal.App.presentacion.Pages
         public IActionResult OnPost()
         {
           repositorioPropietario.AddPropietario(Propietario);  
-          return Page();
+          return RedirectToPage("./Lista");
         }
     }
 }

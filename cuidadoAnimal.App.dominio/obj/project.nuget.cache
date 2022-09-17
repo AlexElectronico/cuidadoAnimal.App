@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ivtggHJcyeN8+99sgWI7P0Rze231y/+duV0s9AV/buBH6HQHsM/hjUQQN6l6iPopm9FvRUof7m1UsZJMlD0rdA==",
+  "dgSpecHash": "4BJzaleV7Bbd0164+uiwxJVFjCh9XZa0/jdv9O9rsRGBB0vXaseiT0wiwUX2YK+O6Q9NzFy3E6H15ktmJRL3Wg==",
   "success": true,
   "projectFilePath": "C:\\cuidadoAnimal\\cuidadoAnimal.App\\cuidadoAnimal.App.dominio\\cuidadoAnimal.App.dominio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario Microsoft\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

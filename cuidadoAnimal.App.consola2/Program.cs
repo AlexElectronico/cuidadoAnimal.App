@@ -11,9 +11,9 @@ namespace cuidadoAnimal.App.consola2
     
     static void Main(string[] args)
     {
-     Console.WriteLine("HOLA MUNDO");
-     //AddPropietario();
-     BuscarPropietario(4);
+     Console.WriteLine("Ejercicio insercion de datos ");
+     AddPropietario();
+    // BuscarPropietario(14);
     }
     
     private static void AddPropietario()
@@ -21,12 +21,12 @@ namespace cuidadoAnimal.App.consola2
       var propietario=new Propietario()
       {
         // IdPersona=11,
-         Nombres="David",
-         Apellidos="ospina",
-         Telefono="400404",
-         NombreHacienda=3333,
-         Email="ospi@ww",
-         Direccion="av 456"
+         Nombres="Carlos",
+         Apellidos="valderrama",
+         Telefono="10101010",
+         NombreHacienda=101010101,
+         Email="pibe@ffkf",
+         Direccion="AV mompelie"
       };  
       _repoPropietario.AddPropietario(propietario);
 

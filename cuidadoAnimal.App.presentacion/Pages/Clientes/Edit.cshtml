@@ -1,8 +1,8 @@
-﻿@*
+﻿
 @page
 @model cuidadoAnimal.App.presentacion.Pages.EditModel
 @{
-   int idpropietario=Model.propietario.IdPersona;
+   //int idpropietario=Model.propietario.IdPersona;
 }
 
 <h2>Edicion de datos del Propietario</h2>
@@ -43,7 +43,9 @@
         <input asp-for="propietario.Direccion" class="form-control">
         <span class="text-danger" asp-validation-for="propietario.Direccion"></span>
     </div>
-<button type="submit" class="btn btn-primary">Guardar</button>
+    <br>    
+<button type="submit" class="btn btn-primary">Guardar</button><br>
+<a asp-page="./Lista" class ="btn-default">Volver a la lista de Propietarios</a>
 
 </form>
-*@
+

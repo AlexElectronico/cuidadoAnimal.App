@@ -6,12 +6,16 @@ namespace   cuidadoAnimal.App.dominio
     {
         [Key]
         public int IdPersona {get; set;}
+       // [Requiered,StringLength(50)]
         public string Nombres {get; set;}
+       // [Requiered,StringLength(50)]
         public string Apellidos {get; set;}
+       // [Requiered,StringLength(50)]
          public string Telefono{get; set;}
-       
-       
+        //[Requiered,StringLength(50)]
+             
         public string Email{get; set;}
+      //  [Requiered,StringLength(50)]
         
       
     }
