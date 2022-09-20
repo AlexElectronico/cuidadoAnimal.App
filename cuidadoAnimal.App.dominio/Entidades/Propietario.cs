@@ -9,6 +9,7 @@ namespace cuidadoAnimal.App.dominio
         public int NombreHacienda {get; set;}
         
          public string Direccion{get; set;}
+         public List<Animal>Animales{get; set;}
                 
     }
 }

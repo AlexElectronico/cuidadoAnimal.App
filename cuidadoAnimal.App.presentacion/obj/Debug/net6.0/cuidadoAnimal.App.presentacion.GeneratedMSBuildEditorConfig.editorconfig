@@ -23,6 +23,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/cuidadoAnimal/cuidadoAnimal.App/cuidadoAnimal.App.presentacion/Pages/Clientes/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcRWxpbWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/cuidadoAnimal/cuidadoAnimal.App/cuidadoAnimal.App.presentacion/Pages/Clientes/ingresar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50ZXNcaW5ncmVzYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

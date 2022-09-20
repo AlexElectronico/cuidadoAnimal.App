@@ -10,19 +10,23 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
+
 namespace cuidadoAnimal.App.presentacion.Pages
 {
-    public class EditModel : PageModel
+    public class EliminarModel : PageModel
     {
         private readonly IrepositorioPropietario repositorioPropietario;
-        [BindProperty]
-        public Propietario propietario{set;get;}
-        public EditModel()
+          public EliminarModel()
         {
             this.repositorioPropietario=new RepositorioPropietario(new cuidadoAnimal.App.persistencia.AppContext());
         }
+          [BindProperty]
+        public Propietario propietario{set;get;}
 
-         public IActionResult OnGet(int idpropietario)
+
+
+       public IActionResult OnGet(int idpropietario)
         {
            
            propietario=repositorioPropietario.GetPropietario(idpropietario);
@@ -33,15 +37,12 @@ namespace cuidadoAnimal.App.presentacion.Pages
             return Page();
            }
         }
-
-       
-
+        
         public IActionResult OnPost()
         {
-           propietario=repositorioPropietario.UpdatePropietario(propietario);
-           //repositorioPropietario.DeletePropietario(propietario.IdPersona);
-            return RedirectToPage("./Lista"); 
+            repositorioPropietario.DeletePropietario(propietario.IdPersona);
+             return RedirectToPage("./Lista"); 
         }
-      
+       
     }
 }

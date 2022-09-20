@@ -16,6 +16,8 @@ namespace   cuidadoAnimal.App.dominio
              
         public string Email{get; set;}
       //  [Requiered,StringLength(50)]
+
+      
         
       
     }

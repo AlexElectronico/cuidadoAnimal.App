@@ -32,6 +32,7 @@ namespace cuidadoAnimal.App.persistencia
       IEnumerable<Propietario> IrepositorioPropietario.GetAllPropietarios()
       {
          return _appContext.Propietarios;  
+         //return _appContext.Propietarios.Include(p=>p.Animales);  
       }
 
       Propietario IrepositorioPropietario.GetPropietario(int idpropietario)

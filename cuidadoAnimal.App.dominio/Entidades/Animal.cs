@@ -10,7 +10,7 @@ namespace   cuidadoAnimal.App.dominio
         public string Nombre {get; set;}   
         public string Especie {get; set;} 
         public string Raza {get; set;} 
-        public Propietario Propietario{get; set;}
+
 
 
     }
